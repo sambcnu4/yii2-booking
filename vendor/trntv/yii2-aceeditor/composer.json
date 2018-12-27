@@ -1,0 +1,33 @@
+{
+    "name": "trntv/yii2-aceeditor",
+    "description": "Yii2 ajax.org Ace Editor widget",
+    "keywords": ["yii", "aceeditor", "code editor"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Eugene Terentev",
+            "email": "eugene@terentev.net"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "bower-asset/ace-builds": "^1.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "trntv\\aceeditor\\": "src"
+        }
+    },
+    "config": {
+        "fxp-asset": {
+            "enabled": false
+        }
+    }
+}
