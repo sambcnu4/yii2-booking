@@ -1,2 +1,2 @@
-ติดตั้ง compocer 
+ติดตั้ง composer 
 ทำการ -> composer update
